@@ -7,7 +7,8 @@
 
 ***Query MySQL Pada Tabel Perusahaan***
 
-![Screenshot 2024-07-01 105444](https://github.com/oktavia18/praktikum-UAS-2/assets/147913672/4eb5c14f-5a05-4155-8331-f67fa4df12a3)
+![Screenshot 2024-07-01 105444](https://github.com/oktavia18/praktikum-UAS-2/assets/147913672/ed4fd1c4-5e19-43b2-b51f-b04c508bc8dd)
+
 
 ## Soal Latihan Praktikum UAS
 
