@@ -15,8 +15,8 @@
 
 # Di bawah ini merupakan perintah dan juga hasil yang di minta
 
-# 1. Menampilkan Nama Karyawan yang Berada di Departemen yang Dipimpin
-oleh Manajer dengan Nama 'Rika'
+# 1. Menampilkan Nama Karyawan yang Berada di Departemen yang Dipimpin Oleh Manajer Nama 'Rika'
+
 
 ```
 SELECT DISTINCT K.nama
