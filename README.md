@@ -15,7 +15,7 @@
 
 # Di bawah ini merupakan perintah dan juga hasil yang di minta
 
-# Menampilkan Nama Karyawan yang Berada di Departemen yang Dipimpin
+# 1. Menampilkan Nama Karyawan yang Berada di Departemen yang Dipimpin
 oleh Manajer dengan Nama 'Rika'
 
 ```
@@ -27,7 +27,7 @@ WHERE M.nama = 'Rika';
 ```
 ![Screenshot 2024-07-01 110522](https://github.com/oktavia18/praktikum-UAS-2/assets/147913672/6cac1dda-454c-4c00-9bcd-9b2aecb914aa)
 
-# MMenampilkan Nama Proyek yang dikerjakan oleh Karyawan dari Departemen 'RnD'
+# 2. Menampilkan Nama Proyek yang dikerjakan oleh Karyawan dari Departemen 'RnD'
 ```
 SELECT DISTINCT P.nama
 FROM Project P
@@ -38,7 +38,7 @@ WHERE D.nama = 'RnD';
 ```
 ![Screenshot 2024-07-01 110728](https://github.com/oktavia18/praktikum-UAS-2/assets/147913672/c73f53a1-88b2-497c-8fbe-8d366b6a2bb0)
 
-# Menampilkan Nama Karyawan yang Terlibat dalam Lebih dari Satu Proyek
+# 3. Menampilkan Nama Karyawan yang Terlibat dalam Lebih dari Satu Proyek
 
 ```
 SELECT K.nama
@@ -49,7 +49,7 @@ HAVING COUNT(PD.id_proj) > 1;
 ```
 ![Screenshot 2024-07-01 110942](https://github.com/oktavia18/praktikum-UAS-2/assets/147913672/0e606794-733c-45d7-9e17-ccc65c2190ba)
 
-# Menampilkan Nama Proyek yang melibatkan Karyawan terbanyak.
+# 4. Menampilkan Nama Proyek yang melibatkan Karyawan terbanyak.
 
 
 ```
@@ -63,7 +63,7 @@ LIMIT 1;
 
 ![Screenshot 2024-07-01 111119](https://github.com/oktavia18/praktikum-UAS-2/assets/147913672/d60d5f2e-3109-4df9-8e7a-5696885f7301)
 
-# Menampilkan Nama Proyek yang Diikuti oleh Karyawan dengan Gaji Pokok Kurang dari 3 Juta
+# 5. Menampilkan Nama Proyek yang Diikuti oleh Karyawan dengan Gaji Pokok Kurang dari 3 Juta
 
 ```
 SELECT DISTINCT P.nama
