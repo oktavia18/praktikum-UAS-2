@@ -75,4 +75,4 @@ WHERE K.gaji_pokok < 3000000;
 
 ![Screenshot 2024-07-01 111254](https://github.com/oktavia18/praktikum-UAS-2/assets/147913672/705aaec3-8ee2-4156-be15-3896c741b8c1)
 
-#SELESAI 
+# selesai
